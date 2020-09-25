@@ -13,5 +13,4 @@ def run_guessing_game
     result = "Sorry! The computer guessed "+ random_number + "."
   end
   result
-  binding.pry
 end
