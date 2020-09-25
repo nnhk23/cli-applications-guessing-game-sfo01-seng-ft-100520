@@ -5,7 +5,6 @@ def run_guessing_game
   result = ""
   input = gets.chomp
   random_number = (rand(6) + 1).to_s
-  binding.pry
   if input == random_number
     result = "You guessed the correct number!"
   elsif input == "exit"
