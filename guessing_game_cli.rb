@@ -9,7 +9,7 @@ def run_guessing_game
     elsif input == "exit"
     result = "Goodbye!"
   else
-    result = "Sorry! the computer guessed " + random_number + "."
+    result = 
   end
   result
 end
