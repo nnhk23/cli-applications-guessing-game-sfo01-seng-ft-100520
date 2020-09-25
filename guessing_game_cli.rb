@@ -1,4 +1,4 @@
-def run_guessing_game(number)
+def run_guessing_game
   random_number = ""
   random_number = rand(6) + 1 
   if number == random_number
