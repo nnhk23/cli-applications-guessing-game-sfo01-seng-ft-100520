@@ -3,7 +3,7 @@ def run_guessing_game
   input = ""
   result = ""
   input = gets.chomp
-  random_number = (rand(6) + 1).to_s
+  random_number = rand(6) + 1
   if input == random_number
     result = "You guessed the correct number!"
     elsif input == "exit"
