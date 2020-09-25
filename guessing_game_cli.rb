@@ -1,4 +1,3 @@
-require 'pry'
 def run_guessing_game
   random_number = ""
   input = ""
